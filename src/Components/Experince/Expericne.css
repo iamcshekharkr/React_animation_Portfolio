@@ -1,0 +1,81 @@
+:root{
+    --box-shadow:5px 5px 10px 10px rgb(101 ,173, 10, 0.5 );
+    --bg-color:rgb(40,47,97);
+}
+.Experince {
+  display: flex;
+  justify-content:center;   /* Horizontal center */      /* Vertical center */
+  flex-direction:column;    /* Elements ko column me rakhne ke liye */
+  gap: 10px;
+  margin-left: 20%;
+}
+.left-ex{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+}
+.maincontaner{
+    display: flex;
+    border: 1px solid yellow;
+    width: 800px;
+    background-color: var(--bg-color);
+    padding: 10px;
+    flex-direction: column; 
+    text-align: center;
+    box-shadow:var(--box-shadow);
+    border-radius: 15px;
+    border-color: yellow;
+    margin-bottom: 40px;
+}
+.hilns {
+  display: flex;
+  justify-content:center; /* dono ko left-right side me karega */
+  align-items: center;
+  gap: 20px; /* dono ke beech space */
+  color: chartreuse;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+.left-ex  img{
+margin-top: 25px;
+border-radius: 20%;
+border-width: 1px;
+border: 1px solid yellow;
+animation-name: supermane;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes supermane{
+    0%{
+        border-color: blueviolet;
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 50px blueviolet;
+    }
+    25%{
+        
+        border-color:rgb(239, 244, 11);
+        box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    }
+    50%{
+        
+        border-color:rgb(12, 12, 199);
+        transform: translate(0, 10px);
+        box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+    }
+    75%{
+        
+        border-color:rgb(130, 217, 160);
+        box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+    }
+    100%{
+        
+        border-color:rgb(82, 189, 15);
+        transform: translate(0, 10px);
+        box-shadow: 10px 10px 100px 50px rgb(82, 189, 15);
+    }
+}
+
+

@@ -1,0 +1,33 @@
+.navBar {
+  display: flex;                   /* row banane ke liye */
+  justify-content: space-between;  /* left & right alag karne ke liye */
+  align-items: center;             /* vertically center */
+  padding: 10px 20px;
+}
+
+.nav-manu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav-item{
+font-size: 18px;
+font-weight: bold;
+padding: 20px;
+}
+.nav_left{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+.nav-item:hover{
+    border-bottom: 4px solid rgb(49, 105, 237);
+    color: rgb(203, 127, 220);
+}
+.nav_left:hover{
+    border-bottom: 4px solid rgb(49, 105, 237);
+    color: rgb(203, 127, 220);
+
+}
+
+

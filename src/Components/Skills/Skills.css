@@ -1,0 +1,257 @@
+
+.text{
+    margin-left: 35%;
+}
+.manu0{
+  display: flex;
+  justify-content: center; /* beech me lane ke liye */
+  gap: 60px;  
+  text-align: center; /* items ke beech space */
+
+}
+.html{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.html div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.css{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.css div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.manu1{
+  display: flex;
+  justify-content: center; /* beech me lane ke liye */
+  gap: 60px;  
+  text-align: center;  
+  margin-top: 40px;           /* items ke beech space */
+}
+.javacripe img{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+.firebase img{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    margin-top: 5px;
+}
+.firebase div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.javacripe{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.javacripe div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.firebase{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;   
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.menu2{
+      display: flex;
+  justify-content: center; /* beech me lane ke liye */
+  gap: 60px;  
+  text-align: center;  
+  margin-top: 40px; 
+}
+.node{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.node div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.react{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.react div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.manu3{
+  display: flex;
+  justify-content: center; /* beech me lane ke liye */
+  gap: 60px;  
+  text-align: center; 
+  margin-top: 40px;            /* items ke beech space */
+}
+.graphql{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.graphql div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.mongodb{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.mongodb div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.menu3{
+  display: flex;
+  justify-content: center; /* beech me lane ke liye */
+  gap: 60px;  
+  text-align: center;   
+  margin-top: 40px;          /* items ke beech space */
+}
+.graphql{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.graphql div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.mongodb{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.mongodb div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.manu4{
+  display: flex;
+  justify-content: center; /* beech me lane ke liye */
+  gap: 60px;  
+  text-align: center; 
+  margin-top: 40px;            /* items ke beech space */
+}
+
+.figma{
+    width: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 20px;
+     border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: var(--bg-colors);
+    box-shadow: var(--box-shadow);
+}
+.figma div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+:root{
+    --box-shadow:5px 5px 10px 10px rgb(101 ,173, 10, 0.5 );
+    --bg-color:rgb(40,47,97);
+     --bg-colors:rgb(28, 27, 28);
+}

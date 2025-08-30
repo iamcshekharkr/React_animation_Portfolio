@@ -1,0 +1,95 @@
+:root{
+    --box-shadow:5px 5px 10px 10px rgb(101 ,173, 10, 0.5 );
+    --bg-color:rgb(40,47,97);
+}
+.home{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.home .left{
+    width: 620px;
+    background-color:var(--bg-color);
+    border-radius: 10px;
+    border-color: yellow;
+    text-align: center;
+    border: 2px solid yellow;
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+}
+
+.home .right .img {
+    display: flex;
+   justify-content: center;
+  align-items: center;    
+}
+.home .right .img img{
+    height: 270px;
+    width: 270px;
+    border:3.5px solid yellow;
+    border-radius: 3%;
+    animation-name: supermane;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes supermane{
+    0%{
+        border-color: blue;
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 50px blue;
+    }
+    25%{
+        
+        border-color:rgb(239, 244, 11);
+        box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    }
+    50%{
+        
+        border-color:rgb(12, 12, 199);
+        transform: translate(0, 10px);
+        box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+    }
+    75%{
+        
+        border-color:rgb(130, 217, 160);
+        box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+    }
+    100%{
+        
+        border-color:rgb(50,55,205);
+        transform: translate(0, 10px);
+        box-shadow: 10px 10px 100px 50px rgb(50,55,205);
+    }
+}
+.right{
+    justify-content: center;
+    align-items: center;
+}
+.btn-outline {
+  color: yellow;
+  border: 2px solid yellow;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.btn-outline:hover{
+    background-color: yellow; /* Dark blue */
+    border-color: yellow;
+   color: gray
+
+}
+
+
+/* active/touch effect */
+.btn-outline:active,
+.btn-outline:focus {
+  border-color: yellow;
+}
+
+
+

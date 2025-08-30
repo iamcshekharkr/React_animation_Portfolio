@@ -1,0 +1,32 @@
+.contacts{
+    margin-top: 30px ;
+    margin-left: 90px;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.contact-icon .item{
+    background-color: black;
+    margin: 10px;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 3px solid yellow;
+}
+.contact-icon .icons{
+    font-size: 2rem;
+}
+:root{
+    --box-shadow:5px 5px 10px 10px rgb(101 ,173, 10, 0.5 );
+    --bg-color:rgb(40,47,97);
+}
+.contact-icon .item:hover{
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}

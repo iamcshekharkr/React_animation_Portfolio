@@ -1,0 +1,41 @@
+.row {
+  gap: 40px;   /* cards ke beech spacing */
+  justify-content: center; /* center me align */
+  align-items:center;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  border: 1px solid yellow;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow:var(--box-shadow);
+  background-color: var(--bg-color);
+}
+.card img{
+    width: 300px;
+    height: 350px;
+    border: 1.8px solid yellow;
+}
+.card-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+
+  display: flex;
+  gap: 10px;          /* buttons ke beech gap */
+  flex-wrap: wrap; 
+
+}
+:root{
+    --box-shadow:5px 5px 10px 10px rgb(101 ,173, 10, 0.5 );
+    --bg-color:rgb(40,47,97);
+}
+.item{
+  margin-left: 100px;
+}
