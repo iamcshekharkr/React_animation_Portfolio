@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import NavBar from './Components/NabBar/NabBar'
+import NabBar from './Components/NabBar/NabBar'
 import Home from './Components/Screen/Home'
 import Expericne from './Components/Experince/Experince'
 import Skills from './Components/Skills/Skills'
@@ -17,7 +17,7 @@ function App() {
   }, []);
   return (
     <>
-    <NavBar />
+    <NabBar />
     <div className="contaner">
       <Home />
      <Expericne />
